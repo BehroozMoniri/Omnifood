@@ -87,7 +87,7 @@
   padding-bottom: 0;
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.06);
 }
 
 .sticky .section-hero {
@@ -231,14 +231,14 @@
   /* 60% of parent's width */
   padding-bottom: 60%;
 
-  background-color: #fdf2e9;
+  background-color: #78f0ea  /* #fdf2e9;*/
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #fae5d3;
+  background-color: #02f3b7 /*#fae5d3; */
   z-index: -1;
 }
 
