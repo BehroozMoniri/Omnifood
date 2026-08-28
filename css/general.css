@@ -199,7 +199,8 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  /*background-color:  #cf711f; */
+  background-color:  #02fb0a; 
 }
 
 .btn--outline:link,
@@ -210,8 +211,8 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
-
+  background-color: #02fb0a;
+ /* background-color:#fdf2e9; */
   /* border: 3px solid #fff; */
 
   /* Trick to add border inside */
