@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #ccfece;
+  /* #fdf2e9; */
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -41,7 +42,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #01b007;
 }
 
 .main-nav-link.nav-cta:link,
@@ -49,12 +50,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #02e209;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #01b007;
 }
 
 /* MOBILE */
@@ -87,7 +88,7 @@
   padding-bottom: 0;
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
 .sticky .section-hero {
@@ -99,7 +100,8 @@
 /**************************/
 
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #e6ffe7;
+  /* #fdf2e9; */
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -152,7 +154,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: hsl(99, 97%, 49%);
   font-weight: 700;
 }
 
@@ -230,8 +232,8 @@
 
   /* 60% of parent's width */
   padding-bottom: 60%;
-/* #fdf2e9;*/
-  background-color: #78f0ea;  
+  /* #fdf2e9;*/
+  background-color: #78f0ea;
   z-index: -2;
 }
 
@@ -239,7 +241,7 @@
   width: 45%;
   padding-bottom: 45%;
   /*#fae5d3; */
-  background-color: #02f3b7; 
+  background-color: #02f3b7;
   z-index: -1;
 }
 
@@ -257,15 +259,15 @@
 }
 
 .meal {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
 }
 
 .meal:hover {
-  transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  transform: translateY(-0.5rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
 }
 
 .meal-content {
@@ -322,7 +324,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #79ef19;
 }
 
 .meal-img {
@@ -339,7 +341,8 @@
 /**************************/
 
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #e6ffe7;
+  /* #fdf2e9; */
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -404,18 +407,17 @@
 
 .pricing-plan {
   border-radius: 11px;
-
   width: 75%;
 }
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid #b3feb6;
   padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: #9afd9d;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -431,7 +433,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: #333;
-  background-color: #ffd43b;
+  background-color: #02e209;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -442,7 +444,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #019706;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -481,10 +483,10 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #016404;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #fdf2e9;
+  background-color: #e6ffe7;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
@@ -522,13 +524,13 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #1bfb23, #02c908);
   overflow: hidden;
 }
 
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  color: #45260a;
+  color: #3d5f0d;
 }
 
 .cta .heading-secondary {
@@ -544,10 +546,11 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
+      rgba(111, 240, 5, 0.37),
+      rgba(112, 235, 78, 0.35)
     ),
     url("../img/eating.jpg");
   background-size: cover;
@@ -576,7 +579,7 @@
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #fdf2e9;
+  background-color: #e6ffe7;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
